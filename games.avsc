@@ -1,0 +1,24 @@
+{
+    "type": "record",
+    "namespace": "com.mattkirwan",
+    "name": "games",
+    "fields": [
+        {
+            "name": "board",
+            "type": {
+                "type": "record",
+                "name": "board_record",
+                "fields": [
+                    {
+                        "name": "a1",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "a2",
+                        "type": "boolean"
+                    }
+                ]
+            }
+        }
+    ]
+}
