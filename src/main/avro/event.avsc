@@ -1,0 +1,19 @@
+{
+    "namespace":"com.mattkirwan.avro",
+    "type":"record",
+    "name":"Event",
+    "fields":[
+        {
+            "name":"playerId",
+            "type":"string"
+        },
+        {
+            "name":"action",
+            "type":"string"
+        },
+        {
+            "name":"gridRef",
+            "type":"string"
+        }
+    ]
+}

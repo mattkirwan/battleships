@@ -44,5 +44,5 @@ services:
     depends_on:
       - schema-registry 
     volumes:
-      - ./app:/app
+      - ./:/app
     entrypoint: "tail -f /etc/hosts"
